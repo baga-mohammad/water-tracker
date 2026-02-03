@@ -26,6 +26,7 @@ body {
   letter-spacing: -0.5px;
   display: flex;
   justify-content: center;
+  margin-bottom: 24px;
 }
 
 .top-section p {
@@ -62,8 +63,17 @@ body {
   height: 460px;
   width: 275px;
   background-color: #e0e0e0;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+}
+
+#water {
+  width: 100%;
+  background-color: #1b3e8e;
+  position: absolute;
+  bottom: 0;
+  border-radius: 0 0 10px 10px;
+  transition: 0.5s ease;
 }
 
 .full-info {
