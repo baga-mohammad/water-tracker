@@ -24,7 +24,6 @@ function addWater() {
   remaining -= 250;
 
   updateVal();
-  // percentage = (consumed / 2500) * 100; 
 }
 
 function removeWater() {
@@ -32,7 +31,6 @@ function removeWater() {
 
   consumed -= 250;
   remaining += 250;
-  // percentage = (consumed / 2500) * 100;
 
   updateVal();
 }
